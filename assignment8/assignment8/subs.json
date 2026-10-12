@@ -1,0 +1,56 @@
+[
+    {
+        "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00A9B12",
+        "name": "Los Angeles Class",
+        "imagecredit": "https://www.seaforces.org/usnships/ssn/SSN-688-USS-Los-Angeles.htm",
+        "items": [
+            {
+                "id": "EDCD038C-036F-4C40-826F-61C88CD95EEE",
+                "hullcode": "SSN",
+                "buildstart": "January 1972",
+                "fleet": 20,
+                "role": "Nuclear powered fast attack submarine used by the United States Navy."
+            }
+        ]},
+    {
+        "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00A9C22",
+        "name": "Seawolf Class",
+        "imagecredit": "https://www.seaforces.org/usnships/ssn/SSN-21-USS-Seawolf.htm",
+        "items": [
+            {
+                "id": "36A7CC40-18C1-48E5-BCD8-3B42D43CFBFF",
+                "hullcode": "SSN",
+                "buildstart": "October 1989",
+                "fleet": 3,
+                "role": "High-speed, ultra-quiet deep-sea attack and anti-submarine operations"
+            }
+    ]},
+    {
+        "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00A9D33",
+        "name": "Virginia Class",
+        "imagecredit": "https://www.seaforces.org/usnships/ssn/SSN-797-USS-Iowa.htm",
+        "items": [
+            {
+                "id": "CFB8C2DB-3478-4A10-92FA-3D2A2D5435FC",
+                "hullcode": "SSN",
+                "buildstart": "September 1999",
+                "fleet": 26,
+                "role": "Next-generation fast-attack submarine designed for deep-water and coastal operations"
+            }
+        ]},
+    {
+        "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00A9D34",
+        "name": "Ohio Class",
+        "imagecredit": "https://www.seaforces.org/usnships/ssbn/SSBN-726-USS-Ohio.htm",
+        "items": [
+            {
+                "id": "8903A204-F5C1-4D5C-A0A1-5C0ECD28FEE8",
+                "hullcode": "SSBN or SSGN",
+                "buildstart": "April 1976",
+                "fleet": 18,
+                "role": "Strategic nuclear ballistic missile deterrent (SSBN) or converted guided-missile strike platform (SSGN)"
+            }
+        ]
+        
+    }
+]
