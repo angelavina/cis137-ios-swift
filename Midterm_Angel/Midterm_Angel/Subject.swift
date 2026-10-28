@@ -11,6 +11,12 @@ struct Subject : Codable, Identifiable {
     var id: String
     var name: String
     var description: String
-    var imageName: String
+    var imageName: String {
+        name.lowercased() + "_flag"
+    }
+    var location: String
+    var imageName2: String {
+        location.lowercased()
+    }
 }
 

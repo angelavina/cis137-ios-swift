@@ -1,62 +1,83 @@
 [
     {
         "id": "aa32jj887hhg55",
-        "name": "replace with your item's name 1",
-        "description": "replace with a description for this item",
-        "imageName": "image1"
+        "name": "Italy",
+        "description": "Rome is home to over 300,000 free-roaming cats that are legally protected to live in their historic colonies. Rome completely surrounds Vatican City, making it the only city in the world that encloses an entire independent country.",
+        "imageName": "image1",
+        "location": "Rome",
+        "imageName2": "image11",
+        
     },
     {
         "id": "bb32jj887hhg77",
-        "name": "replace with your item's name 2",
-        "description": "replace with a description for this item",
-        "imageName": "image2"
+        "name": "Japan",
+        "description": "Shinjuku Station handles over 3.5 million passengers every single day and features more than 200 exits alongside dozens of interconnected rail lines. Tokyo was formerly known as Edo a small fishing village.",
+        "imageName": "image2",
+        "location": "Tokyo",
+        "imageName2": "image22",
     },
     {
         "id": "cc32jj887hhg66",
-        "name": "replace with your item's name 3",
-        "description": "replace with a description for this item",
-        "imageName": "image3"
+        "name": "Peru",
+        "description": "Machu Pichu was never truly lost, when American explorer Hiram Bingham arrived in 1911 several local farming families were already living among the ruins. The Incas built Machu Picchu to be earthquake-proof due to using mortarless ashlar technique that allows the walls to shift during earthquakes and then settle safely back into place.",
+        "imageName": "image3",
+        "location": "Machu Pichu",
+        "imageName2": "image33",
     },
     {
         "id": "dd32jj887hhg88",
-        "name": "replace with your item's name 3",
-        "description": "replace with a description for this item",
-        "imageName": "image4"
+        "name": "Greece",
+        "description": "Santorini was once a round single island called Stroggili. Because of high winds and low rainfall, local farmers coil the grapevines into low, interlocking basket shapes called kouloura resting on the ground. This protects the grapes from strong gales and traps morning sea fog for moisture.",
+        "imageName": "image4",
+        "location": "Santorini",
+        "imageName2": "image44",
     },
     {
         "id": "ee32jj887hhg99",
-        "name": "replace with your item's name 4",
-        "description": "replace with a description for this item",
-        "imageName": "image5"
+        "name": "Hawaii",
+        "description": "All of Maui's 30+ miles of shoreline and beaches are 100% public, meaning there are no private beaches. Maui has a strict law that bands all billboards across the island to protect its natural landscape and scenic views",
+        "imageName": "image5",
+        "location": "Maui",
+        "imageName2": "image55",
     },
     {
         "id": "ff32jj887hhg99",
-        "name": "replace with your item's name 5",
-        "description": "replace with a description for this item",
-        "imageName": "image6"
+        "name": "France",
+        "description": "There are no stop signs anywhere in the city of Paris, instead all traffic relies on the traditional right of way rule. The Eiffel Tower was originally built as a temporary 20 year fixture for the 1889 World's Fair and was saved from demolition only after it was outfitted with a radio atenna.",
+        "imageName": "image6",
+        "location": "Paris",
+        "imageName2": "image66",
     },
     {
         "id": "gg32jj887hhg99",
-        "name": "replace with your item's name 6",
-        "description": "replace with a description for this item",
-        "imageName": "image7"
+        "name": "Spain",
+        "description": "Barcelona did not have any natural sandy beaches so the city imported sand ,much of it from Egypt, to create artificial beaches just before hosting the 1992 Olympic Games. Construction of the famous La Sagrada Familia basilica began in 1882 and has already taken over 140 years.",
+        "imageName": "image7",
+        "location":"Barcelona",
+        "imageName2": "image77",
     },
     {
         "id": "hh32jj887hhg99",
-        "name": "replace with your item's name 7",
-        "description": "replace with a description for this item",
-        "imageName": "image8"
+        "name": "England",
+        "description": "Elizabeth Tower is often called Big Ben, but Big Ben is actually the nickname for the massive 13-ton bell inside the tower. 55% of the London Underground network actually runs out in the open air, eventhough it is called the Tube or underground.",
+        "imageName": "image8",
+        "location": "London",
+        "imageName2": "image88",
     },
     {
         "id": "ii32jj887hhg99",
-        "name": "replace with your item's name 8",
-        "description": "replace with a description for this item",
-        "imageName": "image9"
+        "name": "Brazil",
+        "description": "Rio de Janeiro translates to January River in Portuguese, eventhough there is no river named January in the city. Rio de Janeiro is home to Tijuca National Park the worlds largest urban forest righ inside the city.",
+        "imageName": "image9",
+        "location": "Rio de Janeiro",
+        "imageName2": "image99",
     },
     {
         "id": "jj32jj887hhg99",
-        "name": "replace with your item's name 9",
-        "description": "replace with a description for this item",
-        "imageName": "image10"
+        "name": "Republic of Maldives",
+        "description": "The Maldives is the lowest-lying nation on Earth, with an average elevation of just 4.9 feet above sea level. In 2009, President Mmohamed Nasheed and his cabinet held a formal government meeting 20 feet underwater to sign a climate change declaration and draw global attention to rising sea levels.",
+        "imageName": "image10",
+        "location": "Maldives",
+        "imageName2": "image100",
     }
 ]
