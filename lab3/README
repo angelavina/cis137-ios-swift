@@ -25,3 +25,5 @@ the ContentView struct. ForEach was modified to use data from Model, making the 
 The differences between lab3 and lab2 was the implementation of the MVVM programming architecture, which consists of a View, ViewModel, and Model. View creates
 userinterface views, ViewModel is the translator of information between the View and Model, and the Model contains all data and logic. In addition a 
 transition/animation was also implemented which rotates the tapped card either to show the front or back side.
+
+[Watch the Demo Video](https://drive.google.com/file/d/1LqQtFGXdJrluGqMrSjiIE3Vn-Vug3Qp1/view?usp=drive_link)
