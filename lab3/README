@@ -26,4 +26,4 @@ The differences between lab3 and lab2 was the implementation of the MVVM program
 userinterface views, ViewModel is the translator of information between the View and Model, and the Model contains all data and logic. In addition a 
 transition/animation was also implemented which rotates the tapped card either to show the front or back side.
 
-[Watch Demo](https://drive.google.com/file/d/1LqQtFGXdJrluGqMrSjiIE3Vn-Vug3Qp1/view?usp=drive_link)
+[Watch the Demo Video](https://drive.google.com/file/d/1LqQtFGXdJrluGqMrSjiIE3Vn-Vug3Qp1/view?usp=drive_link)
