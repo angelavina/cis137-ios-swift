@@ -22,6 +22,6 @@ No changes were done on the struct backcard. For the frontcard struct, I modifie
 rotation3DEffect with an easeinout animation. These transitions and animations are activated when a card is selected and using the onTapGesture which was moved to
 the ContentView struct. ForEach was modified to use data from Model, making the ForEach less cluttered.
 
-The differences between lab3 and lab2 was the implementation of the MVVM programming structure, which consists of a View, ViewModel, and Model. View creates
+The differences between lab3 and lab2 was the implementation of the MVVM programming architecture, which consists of a View, ViewModel, and Model. View creates
 userinterface views, ViewModel is the translator of information between the View and Model, and the Model contains all data and logic. In addition a 
 transition/animation was also implemented which rotates the tapped card either to show the front or back side.
