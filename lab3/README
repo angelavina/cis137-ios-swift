@@ -1,0 +1,29 @@
+Lab three is a continuation of the memory card game. First step I copied my Lab two Xcode project and renamed it Lab 3. Then I modified the code implmenting
+MVVM architecture by creating three groups View, ViewModel, and Model. I created three seperate swift files and placed them inside the corresponding
+group folder. Inside the model MemoryGame I created the struct MemoryGame and inside it the variable required for the memory game. Also created struct Card
+with assigned constants content and id, and variable isfaceup. These constants and variables will define the conent or image of the card, id, and whether or not
+the card is facing up. I also initialized cards array using data from constant flowers and assigning an index number based on the location inside the 
+flowers array.
+
+
+Inside the ViewModel I created the class MemoryGameStore and added the protocal ObservableObject so the Views watch the ViewModel for any updates to the
+state, in particular the flipcard function. Import combine was added because there were errors when using ObservableOject and this was required.  Published
+variable game was created to track MemoryGame the model for any changes. If any changes are performed on the model, the ViewModel will notify the view
+to refresh as required. Inside the ViewModel I also created the constant columns, this constant was added inside the ViewModel because import SwifUI was
+imported for the ViewModel and its referenced in the View. Also the function flipcard was created that takes an argument that doesn't require an external 
+parameter since the underscore was used. Inside the function a for loop is used to loop through every index inside the cards array that is inside the Model.
+Inside the for loop an if statement compares the card tapped with each of the cards in the array in order to pinpoint the tapped cards exact location 
+inside the cards array. For the tapped card when the correct location from the array is identified the function flipcard toggles, or flips, the boolean 
+value of the variable isfaceup.
+
+For the View, file ContentView.swift, I removed all the variables and constants that I declared inside the Model. I also removed the constant columns and 
+changed how it was called out in the struct ContentView using the ViewModel, this was possible because StateObject was added inside the ContentView struct.
+No changes were done on the struct backcard. For the frontcard struct, I modified the If else statement and removed the onTapGesture. I also added the transition
+rotation3DEffect with an easeinout animation. These transitions and animations are activated when a card is selected and using the onTapGesture which was moved to
+the ContentView struct. ForEach was modified to use data from Model, making the ForEach less cluttered.
+
+The differences between lab3 and lab2 was the implementation of the MVVM programming architecture, which consists of a View, ViewModel, and Model. View creates
+userinterface views, ViewModel is the translator of information between the View and Model, and the Model contains all data and logic. In addition a 
+transition/animation was also implemented which rotates the tapped card either to show the front or back side.
+
+[Watch the Demo Video](https://drive.google.com/file/d/1LqQtFGXdJrluGqMrSjiIE3Vn-Vug3Qp1/view?usp=drive_link)
